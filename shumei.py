@@ -155,6 +155,7 @@ class Sm(object):
             # 提交
             print(data)
             res = self.submit(data)
+            # "riskLevel":"PASS" 为通过
             print(res)
         else:
             print("space识别错误,请重试")
